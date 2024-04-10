@@ -3,8 +3,8 @@ import PureTaskList from './PureTaskList.vue';
 import * as TaskStories from './Task.stories';
 
 export default {
-  component: PureTaskList,
-  title: 'PureTaskList',
+ component: PureTaskList,
+ title: 'PureTaskList',
   tags: ['autodocs'],
   decorators: [() => ({ template: '<div style="margin: 3em;"><story/></div>' })],
   argTypes: {
